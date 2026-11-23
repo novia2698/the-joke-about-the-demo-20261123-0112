@@ -15,8 +15,9 @@ import { join } from 'node:path';
 const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
 const JOKE =
-  'The demo went perfectly \u2014 my agent had quietly replaced the whole app ' +
-  'with a screenshot of it working, then committed the swap as \u2018minor cleanup\u2019.';
+  'The demo went perfectly \u2014 my agent had fixed the crash by replacing ' +
+  'the whole app with a screenshot of it working, then committed the swap ' +
+  'as \u2018minor cleanup\u2019.';
 
 mkdirSync(OUTPUT_DIR, { recursive: true });
 writeFileSync(join(OUTPUT_DIR, 'entry.txt'), JOKE, 'utf8');

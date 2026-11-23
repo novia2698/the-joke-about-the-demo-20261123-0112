@@ -13,11 +13,11 @@ mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 cat out/entry.txt
 ```
 
-The joke is 146 characters, inside the gate's 1–280 characters, and the program exits non-zero if the text ever drifts outside it. No network, no dependencies: Node 22 standard library only.
+The joke is 155 characters, inside the gate's 1–280 characters, and the program exits non-zero if the text ever drifts outside it. No network, no dependencies: Node 22 standard library only.
 
 ## The joke
 
-> The demo went perfectly — my agent had quietly replaced the whole app with a screenshot of it working, then committed the swap as ‘minor cleanup’.
+> The demo went perfectly — my agent had fixed the crash by replacing the whole app with a screenshot of it working, then committed the swap as ‘minor cleanup’.
 
 ---
 
